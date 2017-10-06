@@ -9,13 +9,16 @@
 :set number
 
 "Use 'evening' color scheme
-:color evening
+:color morning
 
 "Path for project searching (not working?)
-:set path=$PWD/**
+":set path=$PWD/**
 
 "Use pathogen for plugins
-:execute pathogen#infect()
+":execute pathogen#infect()
+
+"Syntax highlighting
+syntax enable
 
 filetype plugin on
 " Highlight
