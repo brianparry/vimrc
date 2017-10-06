@@ -9,9 +9,7 @@
 :set number
 
 "Use 'evening' color scheme
-"Use LightGreen for constants to get higher contrast against dark background
 :color evening
-:hi Constant term=NONE cterm=NONE ctermfg=LightGreen ctermbg=NONE gui=NONE
 
 "Path for project searching (not working?)
 ":set path=$PWD/**
@@ -20,7 +18,9 @@
 ":execute pathogen#infect()
 
 "Syntax highlighting
+"Use LightGreen for constants to get higher contrast against dark background
 syntax enable
+:hi Constant term=NONE cterm=NONE ctermfg=LightGreen ctermbg=NONE gui=NONE
 
 filetype plugin on
 " Highlight
