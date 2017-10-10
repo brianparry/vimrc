@@ -21,12 +21,13 @@
 "Use LightGreen for constants to get higher contrast against dark background
 syntax enable
 :hi Constant term=NONE cterm=NONE ctermfg=LightGreen ctermbg=NONE gui=NONE
+:set hlsearch
 
-filetype plugin on
+"filetype plugin on
 " Highlight
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
+"let g:go_highlight_functions = 1
+"let g:go_highlight_methods = 1
+"let g:go_highlight_structs = 1
+"let g:go_highlight_operators = 1
+"let g:go_highlight_build_constraints = 1
 
